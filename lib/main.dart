@@ -88,7 +88,7 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
             Expanded(
-              flex: 6,
+              flex: 1,
               child: Container(),
             ),
           ],
