@@ -52,15 +52,16 @@ class _HomePageState extends State<HomePage> {
               child: Container(),
             ),
             Expanded(
-              flex: 7,
+              flex: 12,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   Expanded(
+                    flex: 6,
                     child: Container(),
                   ),
                   Expanded(
-                    flex: 6,
+                    flex: 5,
                     child: Container(
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
@@ -72,7 +73,7 @@ class _HomePageState extends State<HomePage> {
                         ),
                         boxShadow: const [
                           BoxShadow(
-                            color: const Color.fromARGB(255, 255, 255, 255),
+                            color: Color.fromARGB(255, 255, 255, 255),
                             blurRadius: 10,
                             offset: Offset(5, 5),
                           ),
@@ -82,13 +83,14 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                   Expanded(
+                    flex: 6,
                     child: Container(),
                   ),
                 ],
               ),
             ),
             Expanded(
-              flex: 1,
+              flex: 2,
               child: Container(),
             ),
           ],
